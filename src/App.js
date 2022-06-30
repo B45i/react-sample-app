@@ -15,7 +15,7 @@ export default function App() {
 
   const getList = async () => {
     const response = await fetch(
-      'https://api.jsonbin.io/b/62bd6da2402a5b3802430bf2/1'
+      'https://api.jsonbin.io/b/62bd6da2402a5b3802430bf2/4'
     );
     const data = await response.json();
     setList(data);
